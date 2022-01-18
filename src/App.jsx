@@ -11,7 +11,7 @@ export function App(){          //Isso daqui é um Componente
     return (
         <div class="container"> {/*Sempre que houver dois componentes para serem reenderizados eles precisam estar entorno de algo, no caso seria uma div ou o fragment que as <> vazio Usado para não afetar em nada no css*/}
             <Header />
-            <Sobre />
+            <Home />
             <Footer />
         </div>
     )
