@@ -1,0 +1,248 @@
+.container{
+    background-color: black;
+    margin: auto;
+
+}
+/*Header*/
+#navbar{
+    justify-content: space-between;
+    padding-inline: 15px;
+}
+
+#navbar h1{
+    color: white;
+}
+
+
+#navegacaonav{
+    display:flex;
+    background-color:#211f1f;
+}
+
+.buttonnav{
+    border-radius: 8px;
+    background-color:#211f1f;
+    color: white;
+    height: 30px;
+    margin: 8px;
+}
+
+@media (max-width:550px){
+    header {
+        flex-direction: column;
+    }
+}
+
+.buttonnav:hover{
+    background-color: white;
+    color: black;
+    box-shadow: inset 0 0 0 3px white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*Footer*/
+#footer{
+    color: lightgray;
+    margin-top: 0px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.buttonsfot{
+    justify-content: space-evenly;
+}
+
+.textfooter{
+    flex-direction: column;    
+}  
+
+.logorede{
+    width: 35px;
+    margin: 4px;
+}
+
+/*Navbar e Footer*/
+.headfot{
+    display: flex; /**/
+    background-color: #211f1f; /**/
+    margin: 15px;   /**/
+    text-align: center; /**/
+    align-items: center; /**/
+}
+
+/*Index*/
+.conteudoindex{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 97%;
+    height: 100%;
+    margin: 10px;
+    justify-content: space-around ;
+    align-items: stretch;
+}
+
+#column_right{
+    width: 47%;    
+}
+
+.banner{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.textdestaque{
+    font-size: 120%;
+}
+
+
+#column_left{
+    flex-direction: column; 
+    color: lightgray;
+    width: 46%;
+}
+
+.flex-cont{
+    display: flex;
+    flex: 1 1 47.5%;
+    background-color: black;
+    margin: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.textdiferent{
+    color: yellow;
+}
+
+#quadroapresent{
+    background-color: #211f1f;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*Daqui Para Baixo o conteúdo se trata de SOBRE MIM*/
+.conteudosobre{
+    display: flex;
+    width: 97%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-around ;
+    align-items: stretch;
+    flex-wrap: wrap;
+    font-size: 100%;
+}
+
+#resumo{
+    justify-content: center;
+    color: lightgray;
+    background-color: black;
+    align-items: center;
+    width: 450px;
+    text-align: justify;
+    margin: 10px;
+    font-size: 100%;
+}
+
+#historia{
+    justify-content: center;
+    color: lightgray;
+    background-color:#211f1f;
+    align-items: center;
+    text-align: justify;
+    width: 450px;
+    margin: 10px;
+    font-size: 100%;
+}
+
+
+.textborder{
+    margin: 20px;
+    font-size: 120%;
+}
+
+#titlehistoria{
+    text-align: center;
+}
+
+.accordion{
+    justify-content:center;
+    box-shadow: black 0px 3px 8p;
+}
+
+.accordion .label {
+    position: relative;    
+}
+
+.accordion .panel .label{
+    position:relative;
+    padding:10px;
+    background-color:lightgray;
+    color: black;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0,0,0,0.24)
+}
+
+.accordion .panel .label::before{
+    content: '';
+    position:absolute;
+    top: 50px;
+    transform: translateY(-50%);
+    font-size:1Em;
+    font-weight: bold;
+}
+
+.accordion .panel .acccont{
+    position:relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .panel.active .acccont{
+    height:auto; /*arrumar o tamanho*/
+    padding: 10px;
+}
+
+/*O conteudo daqui para baixo se trata da página Projetos*/
+
+.titleconteudo{
+    display: flex;
+    flex-wrap: wrap;
+    color: lightgray;
+    justify-content: center;
+    margin: 20px;
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.videotcc{
+    display: flex;
+    margin: 10px;
+}
+
+.textoprojeto{
+
+    color:lightgray;
+    display: flex;
+    width: 550px;
+    align-items: center;
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: 120%;
+}
+
+
